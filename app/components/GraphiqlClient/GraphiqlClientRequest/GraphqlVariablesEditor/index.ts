@@ -1,1 +1,0 @@
-export {GraphqlVariablesEditor} from './GraphqlVariablesEditor';

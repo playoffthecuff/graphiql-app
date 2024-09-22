@@ -1,1 +1,0 @@
-export {GraphiqlRequest} from './GraphiqlRequest';
