@@ -1,0 +1,873 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestClient Snapshot Tests renders correctly with default props 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1ndngdk-MuiContainer-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-1rh84su-MuiTypography-root"
+    >
+      REST Client
+    </h4>
+    <div
+      class="MuiBox-root css-7vjabc"
+    >
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth  css-1ohborb-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+      >
+        <div
+          aria-controls=":r0:"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+          role="combobox"
+          tabindex="0"
+        >
+          GET
+        </div>
+        <input
+          aria-hidden="true"
+          aria-invalid="false"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          tabindex="-1"
+          value="GET"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-ihdtdm"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInputBase-colorPrimary css-4gedou-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          placeholder="Enter URL"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        Send
+      </button>
+    </div>
+    <p
+      class="MuiFormHelperText-root css-1d1r5q-MuiFormHelperText-root"
+      style="color: rgb(211, 47, 47); max-width: 600px; margin: 0px auto; padding-left: 8px; font-size: 14px; height: 1.5rem;"
+    />
+    <div
+      class="MuiBox-root css-8atqhb"
+    >
+      <div
+        class="MuiBox-root css-138tmfn"
+      >
+        <div
+          class="MuiTabs-root css-1ujnqem-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-oqr85h"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-69z67c-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-controls="simple-tabpanel-0"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-0"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Variables
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-1"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-1"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Query
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-2"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-2"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Headers
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-3"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-3"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Body
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-4"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-4"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                editors.responseTitle
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-0"
+        id="simple-tabpanel-0"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      >
+        <div
+          class="MuiBox-root css-19kzrtu"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-10my6kd-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-s3miwy"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Variables
+              </h6>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                editors.add
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiTableContainer-root css-n1kmna-MuiTableContainer-root"
+            >
+              <table
+                class="MuiTable-root css-fd6yyt-MuiTable-root"
+              >
+                <thead
+                  class="MuiTableHead-root css-wvwcdf-MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-15l5g1x-MuiTableCell-root"
+                      scope="col"
+                    />
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.nameTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.valueTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-4wtl5z-MuiTableCell-root"
+                      scope="col"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+                />
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-1"
+        hidden=""
+        id="simple-tabpanel-1"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-2"
+        hidden=""
+        id="simple-tabpanel-2"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-3"
+        hidden=""
+        id="simple-tabpanel-3"
+        role="tabpanel"
+      />
+      <div
+        aria-labelledby="simple-tab-4"
+        hidden=""
+        id="simple-tabpanel-4"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RestClient Snapshot Tests renders correctly with different tab selected 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1ndngdk-MuiContainer-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-1rh84su-MuiTypography-root"
+    >
+      REST Client
+    </h4>
+    <div
+      class="MuiBox-root css-7vjabc"
+    >
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth  css-1ohborb-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+      >
+        <div
+          aria-controls=":r2:"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+          role="combobox"
+          tabindex="0"
+        >
+          GET
+        </div>
+        <input
+          aria-hidden="true"
+          aria-invalid="false"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          tabindex="-1"
+          value="GET"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-ihdtdm"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInputBase-colorPrimary css-4gedou-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          placeholder="Enter URL"
+          type="text"
+          value="http://example.com"
+        />
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Send
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <p
+      class="MuiFormHelperText-root css-1d1r5q-MuiFormHelperText-root"
+      style="color: rgb(211, 47, 47); max-width: 600px; margin: 0px auto; padding-left: 8px; font-size: 14px; height: 1.5rem;"
+    />
+    <div
+      class="MuiBox-root css-8atqhb"
+    >
+      <div
+        class="MuiBox-root css-138tmfn"
+      >
+        <div
+          class="MuiTabs-root css-1ujnqem-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-oqr85h"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-69z67c-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-controls="simple-tabpanel-0"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-0"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Variables
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-1"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-1"
+                role="tab"
+                tabindex="-1"
+                type="button"
+                value="1"
+              >
+                Query
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-2"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-2"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Headers
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-3"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-3"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Body
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-4"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-4"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                editors.responseTitle
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-0"
+        id="simple-tabpanel-0"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      >
+        <div
+          class="MuiBox-root css-19kzrtu"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-10my6kd-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-s3miwy"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Variables
+              </h6>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                editors.add
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiTableContainer-root css-n1kmna-MuiTableContainer-root"
+            >
+              <table
+                class="MuiTable-root css-fd6yyt-MuiTable-root"
+              >
+                <thead
+                  class="MuiTableHead-root css-wvwcdf-MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-15l5g1x-MuiTableCell-root"
+                      scope="col"
+                    />
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.nameTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.valueTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-4wtl5z-MuiTableCell-root"
+                      scope="col"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+                />
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-1"
+        hidden=""
+        id="simple-tabpanel-1"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-2"
+        hidden=""
+        id="simple-tabpanel-2"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-3"
+        hidden=""
+        id="simple-tabpanel-3"
+        role="tabpanel"
+      />
+      <div
+        aria-labelledby="simple-tab-4"
+        hidden=""
+        id="simple-tabpanel-4"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RestClient Snapshot Tests renders correctly with populated props 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1ndngdk-MuiContainer-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-1rh84su-MuiTypography-root"
+    >
+      REST Client
+    </h4>
+    <div
+      class="MuiBox-root css-7vjabc"
+    >
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth  css-1ohborb-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+      >
+        <div
+          aria-controls=":r1:"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+          role="combobox"
+          tabindex="0"
+        >
+          GET
+        </div>
+        <input
+          aria-hidden="true"
+          aria-invalid="false"
+          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+          tabindex="-1"
+          value="GET"
+        />
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+          data-testid="ArrowDropDownIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden="true"
+          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="css-ihdtdm"
+          >
+            <span
+              class="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInputBase-colorPrimary css-4gedou-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          placeholder="Enter URL"
+          type="text"
+          value="http://example.com"
+        />
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Send
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <p
+      class="MuiFormHelperText-root css-1d1r5q-MuiFormHelperText-root"
+      style="color: rgb(211, 47, 47); max-width: 600px; margin: 0px auto; padding-left: 8px; font-size: 14px; height: 1.5rem;"
+    />
+    <div
+      class="MuiBox-root css-8atqhb"
+    >
+      <div
+        class="MuiBox-root css-138tmfn"
+      >
+        <div
+          class="MuiTabs-root css-1ujnqem-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-oqr85h"
+            style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+          />
+          <div
+            class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-69z67c-MuiTabs-scroller"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-controls="simple-tabpanel-0"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-0"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Variables
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-1"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-1"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Query
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-2"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-2"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Headers
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-3"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-3"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Body
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-controls="simple-tabpanel-4"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+                id="simple-tab-4"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                editors.responseTitle
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-0"
+        id="simple-tabpanel-0"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      >
+        <div
+          class="MuiBox-root css-19kzrtu"
+        >
+          <div
+            class="MuiContainer-root MuiContainer-maxWidthLg css-10my6kd-MuiContainer-root"
+          >
+            <div
+              class="MuiBox-root css-s3miwy"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+              >
+                Variables
+              </h6>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                editors.add
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiTableContainer-root css-n1kmna-MuiTableContainer-root"
+            >
+              <table
+                class="MuiTable-root css-fd6yyt-MuiTable-root"
+              >
+                <thead
+                  class="MuiTableHead-root css-wvwcdf-MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-15l5g1x-MuiTableCell-root"
+                      scope="col"
+                    />
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.nameTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-nna138-MuiTableCell-root"
+                      scope="col"
+                    >
+                      <b>
+                        editors.valueTitle
+                      </b>
+                    </th>
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-4wtl5z-MuiTableCell-root"
+                      scope="col"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+                />
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="simple-tab-1"
+        hidden=""
+        id="simple-tabpanel-1"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-2"
+        hidden=""
+        id="simple-tabpanel-2"
+        role="tabpanel"
+        style="max-width: 920px; margin: 0px auto;"
+      />
+      <div
+        aria-labelledby="simple-tab-3"
+        hidden=""
+        id="simple-tabpanel-3"
+        role="tabpanel"
+      />
+      <div
+        aria-labelledby="simple-tab-4"
+        hidden=""
+        id="simple-tabpanel-4"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
